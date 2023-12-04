@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body class="bg-black">
+    <img src="assets/img/netflix_logo.png" class="immagine  m-3" alt="image profile">
+    
+    <div id="contenitore" class="container">
+        <h1 class="border-bottom border-light text-light mb-4">Edit Profile</h1>
+        <div class="d-flex border-bottom border-light mb-4">
+            <div class="leftPart">
+                <img class="w-75" src="assets/img/avatar.png" alt="image profile">
+            </div>
+            <div class="rightPart">
+                <h6 class="text-light fs-5 bg-secondary p-2 mb-4">Strive Student</h6>
+                <div class="d-flex flex-column border-bottom border-light mb-3">
+                    <label class="fs-5 text-light mb-1" for="cars">Language:</label>
+                    <select class="bg-black text-light p-1 w-25 mb-3" name="cars" id="cars">
+                        <option class="text-light" value="Italian">Italian</option>
+                        <option class="text-light" value="English">English</option>
+                        <option class="text-light" value="Spanish">Spanish</option>
+                        <option class="text-light" value="Japanese">Japanese</option>
+                    </select>
+                </div>
+                <div class="border-bottom border-light mb-3">
+                    <h6 class="text-light mb-3">Maturity Settings</h6>
+                    <button class="btn border-secondary text-light bg-secondary rounded-0 mb-3">All Maturity Settings</button>
+                    <h6 class="text-light mb-3">Show little of all maturity ratings for this profile</h6>
+                    <button class="btn border-secondary text-secondary rounded-0 mb-3">EDIT </button>
+                </div>
+                <div>
+                    <h6 class="text-light mb-3 fs-5">Autoplay controls</h6>
+                    <div class="d-flex align-items-center">
+                        <input class="checkoxWidth bg-black me-1" type="checkbox" name="checbox" id="checkbox">
+                        <label class="text-light testoPiccolo" for="checbox">Autoplay next episode in a series on all devices.</label>
+                    </div>
+                    <div class="d-flex align-items-center mb-4">
+                        <input class="checkoxWidth bg-black me-1" type="checkbox" name="checbox" id="checkbox">
+                        <label class="text-light testoPiccolo" for="checbox">Autoplay previews while browsing on all devices.</label>
+                    </div>
+                </div>
+            </div>                       
+        </div>
+        <div class="btn-group d-flex" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-light text-secondary rounded-0 fs-5 px-4 me-5">SAVE</button>
+            <button type="button" class="btn btn-outline-light text-secondary rounded-0 fs-5 px-4 me-5">CANCEL</button>
+            <button type="button" class="btn btn-outline-light text-secondary rounded-0 fs-5 px-4">DELETE PROFILE</button>
+        </div>
+    </div>
+    <script src="bootstrap-5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
